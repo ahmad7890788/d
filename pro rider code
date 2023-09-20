@@ -1,0 +1,14 @@
+list_num=[]
+for i in range(3):
+    list_num.append(int(input("enter the number:")))
+
+    print(list_num)
+    total=sum(list_num)
+    average=total/3
+    print(average)
+
+    #task2
+    my_list=[]
+    for i in range (3):
+        my_list.append(int(input("enter the number:")))
+        print(my_list.reverse())
